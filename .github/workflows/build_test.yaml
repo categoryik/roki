@@ -17,8 +17,9 @@ jobs:
           repository: mi-lib/mi-lib-starter
           ref: main
       - name: Install MiLib
-        env: 
-          PATH: /home/runner/usr/bin:$PATH
-        run: ./scripts/mi-lib-install 
+        run: |
+          export PATH=/home/runner/usr/bin:$PATH
+          
+          ./scripts/mi-lib-install 
 
 
