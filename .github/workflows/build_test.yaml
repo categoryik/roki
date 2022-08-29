@@ -16,7 +16,7 @@ jobs:
         with:
           repository: mi-lib/mi-lib-starter
           ref: heads/main
-      - name: Imstall MiLib
-        run: |
-          ./scripts/mi-lib-install
+      - name: Install MiLib
+        run: ./scripts/mi-lib-install 
+
 
