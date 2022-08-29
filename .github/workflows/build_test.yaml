@@ -19,7 +19,5 @@ jobs:
       - name: Install MiLib
         run: |
           export PATH=/home/runner/usr/bin:$PATH
-          
+          export LD_LIBRARY_PATH=/home/runner/usr/lib:$LD_LIBRARY_PATH
           ./scripts/mi-lib-install 
-
-
