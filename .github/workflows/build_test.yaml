@@ -10,7 +10,7 @@ on:
       - main
 jobs:
   check-bats-version:
-    runs-on: ubuntu-latest
+    runs-on: windows-2022
     steps:
       - uses: actions/checkout@v3
         with:
